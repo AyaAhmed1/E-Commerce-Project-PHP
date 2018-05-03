@@ -1,0 +1,14 @@
+<VirtualHost *:80>
+serverName      shopping.local
+serverAlias     shopping.local
+DocumentRoot    /home/aya/shopping/web
+<directory "/home/aya/shopping/web">
+  Require all granted
+  AllowOverride All
+  Allow from All
+</directory>
+</VirtualHost>
+
+
+//127.0.0.1       shopping.local this in /etc/hosts
+

@@ -1,0 +1,5 @@
+deny from all
+allow from 127.0.0.1	
+ErrorDocument 404 /404.html 
+DirectoryIndex index.php home.php 404.html
+RedirectMatch /*google* https://google.com
